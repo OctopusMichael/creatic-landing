@@ -1,0 +1,45 @@
+---
+/* const menu = [
+  {
+    id: 0,
+    section: "Home",
+  },
+  {
+    id: 1,
+    section: "About Us",
+  },
+  {
+    id: 2,
+    section: "Services",
+  },
+  {
+    id: 3,
+    section: "Portfolio",
+  },
+  {
+    id: 4,
+    section: "Pages",
+  },
+  {
+    id: 5,
+    section: "Contact Us",
+  },
+]; */
+import { menu } from "../utils/Constans";
+---
+
+<nav class="containerr flex justify-between items-center p-5">
+  <div class="flex flex-col text-center">
+    <a class="text-5xl text-blue font-bold" href="#"> Creatic</a>
+    <a class="text-[14px]" href="#"> Creative Agency</a>
+  </div>
+  <ul class="flex gap-6">
+    {
+      menu.map((e) => (
+        <li>
+          <a href="#">{e.section}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

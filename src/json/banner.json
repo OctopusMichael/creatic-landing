@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "title": "Team members",
+    "icons": "/icons/Group.png",
+    "number": 50
+  },
+  {
+    "id": 1,
+    "title": "Graphic Design",
+    "icons": "/icons/setting.png",
+    "number": 200
+  },
+  {
+    "id": 2,
+    "title": "ui/ux Design",
+    "icons": "/icons/star.png",
+    "number": 500
+  },
+  {
+    "id": 3,
+    "title": "WEBSITE DESIGN",
+    "icons": "/icons/rate.png",
+    "number": 75
+  }
+]

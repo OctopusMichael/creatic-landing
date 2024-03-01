@@ -1,0 +1,56 @@
+---
+import { menu } from "../utils/Constans";
+---
+
+<footer
+  class="containerr h-[50vh] flex flex-col items-center justify-around relative"
+>
+  <div
+    class="absolute -z-[-0] h-[400px] w-[400px] -bottom-[0px] bg-gradient-to-t from-blue to-black rounded-full blur-[200px]"
+  >
+  </div>
+  <div class="flex flex-col gap-2 justify-center items-center text-center z-10">
+    <a class="text-5xl text-blue font-bold" href="#"> Creatic</a>
+    <a class="text-[14px] text-gray-400" href="#"> Creative Agency</a>
+    <div class="h-[4px] w-[70px] bg-white"></div>
+    <ul class="flex justify-center gap-5">
+      {
+        menu.map((e) => (
+          <li>
+            <a class="text-blue" href="#">
+              {e.section}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="">
+      Lorem ipsum Neque porro quisquam est qui do lorem ipsum <br /> quia dolor sit
+      amet, Neque porro elit NeDque
+    </p>
+    <ul class="flex gap-5 mt-5">
+      <li>
+        <img src="/icons/fb.png" alt="fb icon" />
+      </li>
+      <li>
+        <img src="/icons/ig.png" alt="ig icon" />
+      </li>
+      <li>
+        <img src="/icons/ws.png" alt="ws icon" />
+      </li>
+      <li>
+        <img src="/icons/linkedin.png" alt="linkedin icon" />
+      </li>
+      <li>
+        <img src="/icons/pinteres.png" alt="pinteres icon" />
+      </li>
+      <li>
+        <img src="/icons/twitter.png" alt="twitter icon" />
+      </li>
+    </ul>
+  </div>
+  <div class="flex flex-col justify-center items-center"></div>
+  <span class="z-20"
+    >Copyright © 2003-2023 Creatic Agency All rights reserved.</span
+  >
+</footer>

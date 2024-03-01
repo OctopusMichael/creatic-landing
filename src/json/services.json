@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "VIDEO MARKETING",
+    "icons": "/icons/Video.png"
+  },
+  {
+    "id": 1,
+    "title": "Graphic Design",
+    "icons": "/icons/graphic.png"
+  },
+  {
+    "id": 2,
+    "title": "ui/ux Design",
+    "icons": "/icons/ux.png"
+  },
+  {
+    "id": 3,
+    "title": "WEBSITE DESIGN",
+    "icons": "/icons/Web.png"
+  }
+]

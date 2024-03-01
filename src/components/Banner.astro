@@ -1,0 +1,19 @@
+---
+import banner from "../json/banner.json";
+---
+
+<section
+  class="bg-gradient-to-tr from-slate-900 to-black"
+>
+  <div class="containerr flex gap-5 justify-around  py-[40px] ">
+    {
+      banner.map((e) => (
+        <div class="flex flex-col gap-2 items-center justify-center ">
+          <img src={e.icons} alt={e.title} />
+          <h1 class="text-5xl font-bold ">{e.number}+</h1>
+          <p class="text-blue">{e.title}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>
