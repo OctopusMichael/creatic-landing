@@ -31,9 +31,9 @@ const Navbar = () => {
         </div>
         <button
           onClick={handleMenu}
-          className=" p-3 rounded-lg border border-white  flex justify-center items-center"
+          className=" p-3 rounded-lg border border-white  flex justify-center items-center lg:hidden"
         >
-         { burgerMenu ? <X/> : <Menu />}
+          {burgerMenu ? <X /> : <Menu />}
         </button>
 
         {/* Desktop */}
