@@ -2,35 +2,33 @@
 import services from "../json/services.json";
 ---
 
-<section class="containerr py-[100px]">
-  <div class="h-[60vh] relative">
-    <div class="flex flex-col gap-8 w-[600px] absolute top-[80px] left-[0px]">
-      <span class="text-blue uppercase"> our services</span>
-      <h1 class="text-5xl font-bold">
-        Experience the power of <span class="text-blue">innovation.</span>
-      </h1>
-      <div class="h-[2px] w-[100px] bg-blue"></div>
-      <span class="text-blue"> We love Creating</span>
-      <p>
-        Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit
-        amet, Neque porro elit NeDque porro Neque porro quisquam est qui do
-        lorem ipsum quia dolor sit amets ipsum
-      </p>
+<section id="Services" class="lg:h-[70vh] containerr lg:py-[100px] flex lg:flex-row flex-col justify-center  gap-10 lg:gap-[150px] items-center p-10 lg:px-[200px] ">
+  <div class="flex flex-col gap-8 lg:w-[600px] text-center lg:text-start">
+    <span class="text-blue uppercase"> our services</span>
+    <h1 class="text-5xl font-bold">
+      Experience the power of <span class="text-blue">innovation.</span>
+    </h1>
+    <div class="h-[2px] w-[100px] bg-blue self-center lg:self-start"></div>
+    <span class="text-blue"> We love Creating</span>
+    <p>
+      Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit
+      amet, Neque porro elit NeDque porro Neque porro quisquam est qui do lorem
+      ipsum quia dolor sit amets ipsum
+    </p>
 
-      <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10">
-        VIEW ALL</button
-      >
-    </div>
-    <div class="grid grid-cols-2  w-[600px] absolute right-0">
-      {
-        services.map((e) => (
-          <div  class="flex flex-col justify-center text-center items-center p-5  bg-gradient-to-tr from-slate-900 to-black text-white shadow-gray-900/20">
-            <img class="w-[150px]" src={e.icons} alt={e.title} />
-            <h1 class="text-blue">{e.title}</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        ))
-      }
-    </div>
+    <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
+      VIEW ALL</button
+    >
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-2  lg:w-[600px] ">
+    {
+      services.map((e) => (
+        <div class="flex flex-col gap-5 justify-center text-center items-center p-5  gradiant text-white shadow-gray-900/20">
+          <img class="lg:w-[150px]" src={e.icons} alt={e.title} />
+          <h1 class="text-blue">{e.title}</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      ))
+    }
   </div>
 </section>

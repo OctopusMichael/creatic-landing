@@ -8,10 +8,13 @@ body {
 }
 @layer {
   .containerr {
-    @apply max-w-[1440px] mx-auto;
+    @apply max-w-[1600px] mx-auto;
   }
   .gradiant {
     @apply bg-gradient-to-tr from-slate-900 to-black;
+  }
+  .paddingX {
+    @apply px-[200px];
   }
 }
 
@@ -57,4 +60,11 @@ body {
     rgba(249, 249, 249, 0) 60%,
     rgba(104, 138, 224, 0.356) 100%
   );
+}
+
+.about {
+  background-image: url(../assets/images/artificialbot.png);
+  background-repeat: no-repeat;
+  background-position: -150px 0%;
+  background-size: contain;
 }

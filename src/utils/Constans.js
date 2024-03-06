@@ -12,15 +12,13 @@ export const menu = [
     section: "Services",
   },
   {
+    id: 2,
+    section: "References",
+  },
+
+
+  {
     id: 3,
-    section: "Portfolio",
-  },
-  {
-    id: 4,
-    section: "Pages",
-  },
-  {
-    id: 5,
     section: "Contact Us",
   },
 ];
