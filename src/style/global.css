@@ -16,6 +16,9 @@ body {
   .paddingX {
     @apply px-[200px];
   }
+  .btnAnimation {
+    @apply hover:scale-110 scale-90 ;
+  }
 }
 
 #section-hero {

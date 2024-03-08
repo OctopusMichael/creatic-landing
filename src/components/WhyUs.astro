@@ -1,27 +1,24 @@
 ---
-
+import Button from "./Button.astro";
 ---
 
 <section
-  class="lg:px-[200px] lg:h-[60vh] containerr flex lg:flex-row flex-col justify-between gap-5 lg:gap-6   py-[100px] "
+  class="lg:px-[200px] lg:h-[60vh] containerr flex lg:flex-row flex-col justify-between gap-5 lg:gap-6 py-[100px] p-5"
 >
-  <div class="flex flex-col gap-8 text-center lg:text-start  ">
+  <div class="flex flex-col gap-8 text-center lg:text-start">
     <span class="text-blue uppercase"> Why Us?</span>
     <div class="h-[2px] w-[100px] bg-blue self-center lg:self-start"></div>
     <h1 class="text-5xl font-bold uppercase">
       25 years of <span class="text-blue">experience</span> as a creative agency
     </h1>
-
-    <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
-      Read More</button
-    >
+    <Button title="Read more" />
   </div>
-  <div class="flex flex-col  gap-8">
+  <div class="flex flex-col gap-8">
     <p class="lg:mt-[100px]">
       Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit
       amet, Neque porro elit NeDque porro Lorem ipsum
     </p>
-    <ul class="flex flex-col gap-3 ">
+    <ul class="flex flex-col gap-3">
       <li class="flex gap-2 items-center">
         <img src="/icons/check.png" alt="check icon" />
         <span>Happy Customer</span>

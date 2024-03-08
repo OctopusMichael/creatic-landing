@@ -1,10 +1,12 @@
 ---
+import Button from "./Button.astro";
+
 
 ---
 
 <section
   id="About Us"
-  class="lg:h-[70vh] flex lg:flex-row flex-col items-center w-full lg:relative containerr p-10 lg:px-[200px]"
+  class="lg:h-[70vh] flex lg:flex-row flex-col items-center w-full lg:relative containerr p-5 lg:px-[200px]"
 >
   <img
     class="lg:absolute lg:-left-0 object-cover h-full order-2"
@@ -28,8 +30,11 @@
       Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, Lorem
       ipsum Neque quis ipsum
     </p>
-    <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
+ 
+    <Button title="Read more" />
+
+    <!-- <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
       Read More</button
     >
-  </div>
+  </div> -->
 </section>

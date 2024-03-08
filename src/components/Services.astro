@@ -1,8 +1,9 @@
 ---
 import services from "../json/services.json";
+import Button from "./Button.astro";
 ---
 
-<section id="Services" class="lg:h-[70vh] containerr lg:py-[100px] flex lg:flex-row flex-col justify-center  gap-10 lg:gap-[150px] items-center p-10 lg:px-[200px] ">
+<section id="Services" class="lg:h-[70vh] containerr lg:my-[100px] items-center   flex lg:flex-row flex-col  gap-10 lg:gap-[150px]  p-10 lg:px-[200px] ">
   <div class="flex flex-col gap-8 lg:w-[600px] text-center lg:text-start">
     <span class="text-blue uppercase"> our services</span>
     <h1 class="text-5xl font-bold">
@@ -15,10 +16,11 @@ import services from "../json/services.json";
       amet, Neque porro elit NeDque porro Neque porro quisquam est qui do lorem
       ipsum quia dolor sit amets ipsum
     </p>
+    <Button title="VIEW ALL" />
 
-    <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
+   <!--  <button class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
       VIEW ALL</button
-    >
+    > -->
   </div>
   <div class="grid grid-cols-1 lg:grid-cols-2  lg:w-[600px] ">
     {

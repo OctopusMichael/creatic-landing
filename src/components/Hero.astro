@@ -1,15 +1,20 @@
 ---
-
+import Button from "./Button.astro";
 ---
 
-<section id="Home" class="lg:h-[70vh] flex flex-col lg:flex-row items-center w-full md:relative containerr lg:p-[200px] p-10 ">
+<section
+  id="Home"
+  class="lg:h-[70vh] flex flex-col lg:flex-row items-center w-full md:relative containerr lg:p-[200px] p-5"
+>
   <img
-    class="lg:absolute lg:-right-[100px] object-cover h-full order-2 "
+    class="lg:absolute lg:-right-[100px] lg:object-cover  h-full order-2 "
     src="/images/beautiful-woman.jpg"
     alt="beautiful-woman image"
   />
 
-  <div class="lg:absolute flex flex-col gap-8 lg:w-[600px]   order-1 text-center lg:text-start ">
+  <div
+    class="lg:absolute flex flex-col gap-8 lg:w-[600px] order-1 text-center lg:text-start"
+  >
     <span class="text-blue uppercase"> Welcome to creatic</span>
     <h1 class="text-6xl font-bold">
       WE ARE <span class="text-blue">CREATIVE</span> DESIGN AGENCY
@@ -20,8 +25,12 @@
       itaque consequuntur, eos facilis deleniti perspiciatis quasi libero sit
       ea.
     </p>
-    <button  class="p-2 tracking-[4px] border-blue border-2 w-[200px] z-10 self-center lg:self-start">
-      GET IN TOUCH</button
+
+    <Button title="GET IN TOUCH" />
+    <!-- <button
+      class="p-2 tracking-[4px] border-blue border-2 z-10 self-center lg:self-start scale-95 hover:scale-110 duration-200 ease-in-out"
     >
+      GET IN TOUCH</button
+    > -->
   </div>
 </section>

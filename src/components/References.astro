@@ -2,11 +2,16 @@
 import Button from "../components/Button.astro";
 ---
 
-<section id="References" class="flex lg:flex-row flex-col lg:h-[100vh] justify-between  ">
-  <img class="lg:w-4/12" src="/images/human.png" alt="human img" />
-  <div class="flex flex-col gap-3 items-center text-center   lg:w-4/12 px-20 py-[20px] lg:py-5">
+<section
+  id="References"
+  class="flex lg:flex-row flex-col lg:h-[100vh] justify-between max-w-[1700px] mx-auto"
+>
+  <img class="lg:w-[533px]" src="/images/human.png" alt="human img" />
+  <div
+    class="flex flex-col gap-3 items-center text-center lg:w-4/12 px-20 py-[20px] lg:py-5"
+  >
     <h1 class="text-5xl font-bold">
-      WHAT <span class="text-blue">OUR</span><br> CLIENTS SAY?
+      WHAT <span class="text-blue">OUR</span><br /> CLIENTS SAY?
     </h1>
     <div class="h-[2px] w-[100px] bg-blue"></div>
     <span class="uppercase">Testimonials</span>
@@ -19,16 +24,29 @@ import Button from "../components/Button.astro";
       </p>
       <div class="flex justify-between items-center relative">
         <div class="flex items-center text-start gap-5">
-          <img class="w-[50px] lg:w-[80px]" src="/images/avatar.png" alt="avatar img" />
-          <div class="flex flex-col ">
+          <img
+            class="w-[50px] lg:w-[60px]"
+            src="/images/avatar.png"
+            alt="avatar img"
+          />
+          <div class="flex flex-col">
             <h1>Carol Chaves</h1>
             <h2 class="text-blue">@caroles.gmail.com</h2>
           </div>
         </div>
-        <img class="hidden lg:block" src="/icons/Coomas.png" alt="coomas icon" />
+        <img
+          class="hidden lg:block"
+          src="/icons/Coomas.png"
+          alt="coomas icon"
+        />
       </div>
     </div>
-    <Button  title="View all references" />
+    <!-- <Button title="View all references" /> -->
+    <button
+      class="p-4 tracking-[4px] border-blue border-2 w-auto z-10 hover:scale-110 duration-200 ease-in-out transition-all self-center "
+    >
+      View all references
+    </button>
   </div>
-  <img class="lg:w-4/12" src="/images/cybor.png" alt="cybor img" />
+  <img class="lg:w-[533px]" src="/images/cybor.png" alt="cybor img" />
 </section>
